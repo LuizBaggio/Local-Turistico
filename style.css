@@ -1,11 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-}
+    }
 
 :root {
     font-family: 'Open Sans', sans-serif;
     line-height: 120%;
+}
+
+#page {
+    box-sizing: border-box;
+    width: 1120px;
+    margin: 88px 98px 62px 137px;
 }
 
 img {
