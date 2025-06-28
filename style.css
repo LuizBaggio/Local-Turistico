@@ -18,6 +18,7 @@ body {
     box-sizing: border-box;
     width: 1120px;
     margin: 88px auto 137px;
+
 }
 
 .divider {
@@ -39,16 +40,19 @@ h1, h2, h3 {
 h1 {
     font-size: 36px;
     line-height: 49px;
+    margin: 8px 0 40px;
 }
 
 h2 {
     font-size: 32px;
     line-height: 44px;
+    margin: 2px 0 8px;
 }
 
 h3 {
     font-size: 28px;
     line-height: 38px;
+    margin: 20px 0 4px;
 }
 
 p {
@@ -64,10 +68,6 @@ p {
   text-transform: uppercase;
 }
 
-.divider + p {
-  text-align: center;
-}
-
 .subtitle {
   font-size: 16px;
   line-height: 22px;
@@ -77,19 +77,48 @@ p {
   margin-top: 24px;
 }
 
+main div img {
+  height: 375px;
+  object-fit: cover;
+  margin-top: 44px;
+}
+
+ul {
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 4px;
+  padding-left: 24px;
+  font-weight: bold;
+}
+
 ul li::marker {
   color: #333333;
 }
 
 footer {
-    font-family: "Alice", serif;
-    text-align: center;
-    padding-top: 65px;
-    padding-bottom: 48px;
+  color: #333333;
+  font-family: "Alice", serif;
+  text-align: center;
+  line-height: 150%;
 }
 
 footer img {
-    vertical-align: middle;
-    width: 16px;
-    height: 16px;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+.accent-blue {
+  color: #0c51a7;
+}
+
+.accent-purple {
+  color: #591b98;
+}
+
+.accent-pink {
+  color: #e5245e;
+}
+
+.accent-orange {
+  color: #e95e10;
 }
