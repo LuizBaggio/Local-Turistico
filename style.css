@@ -6,6 +6,7 @@
 :root {
     font-family: 'Open Sans', sans-serif;
     line-height: 120%;
+    color: #1B1B1B;
 }
 
 #page {
@@ -16,4 +17,32 @@
 
 img {
     border-radius: 28px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 38px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.headline {
+    color: #E1624F ;
+}
+
+footer {
+    font-family: "Alice", serif;
 }
